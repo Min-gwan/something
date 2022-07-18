@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous">
+    </head>
+
+    <body>
+        <!-- header-->
+        <header class="container bg-light border-top border-2">
+            <div class="row">
+                <div class="col">
+                    image
+                </div>
+                <div class="col">
+                    search
+                </div>
+                <div class="col">
+                    icon
+                </div>
+            </div>
+            <div class="row border-top border-bottom border-2">
+                <ul class="nav nav-pills justify-content-between">
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            href="#"
+                            role="button"
+                            aria-expanded="false">history</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Oriental History</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Western History</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Others</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            href="#"
+                            role="button"
+                            aria-expanded="false">military</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">tank</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">fighter</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">warship</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            href="#"
+                            role="button"
+                            aria-expanded="false">Computer</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">C</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Java</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">JavaScript</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">HTML&CSS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            href="#"
+                            role="button"
+                            aria-expanded="false">Math</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Middle-School</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">High-School</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">University</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- header end-->
+
+        <!-- main -->
+        <main class="container-fluid bg-info">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <!--sidebar-->
+                    <div class="sidebar-header">
+                        <h2>INDEX</h2>
+                    </div>
+                    <hr>
+                    <div class="sidebar-section1">
+                        <h5>History</h3>
+                        <ul class="list-unstyled components">
+                            <li class="active">
+                                <a
+                                    href="#Korea"
+                                    aria-controls="Korea"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">한국사</a>
+                                <ul class="collapse list-unstyled" id="Korea">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#China"
+                                    aria-controls="China"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">중국사</a>
+                                <ul class="collapse list-unstyled" id="China">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#Europe"
+                                    aria-controls="Europe"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">유럽사</a>
+                                <ul class="collapse list-unstyled" id="Europe">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#America"
+                                    aria-controls="America"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">미국사</a>
+                                <ul class="collapse list-unstyled" id="America">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#Others"
+                                    aria-controls="Others"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">기타지역</a>
+                                <ul class="collapse list-unstyled" id="Others">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="sidebar-main2">
+                        <h5>military</h5>
+                        <ul class="list-unstyled components">
+                            <li class="active">
+                                <a
+                                    href="#Tank"
+                                    aria-controls="Tank"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">탱크</a>
+                                <ul class="collapse list-unstyled" id="Tank">
+                                    <li>
+                                        <a href="#">초기의 탱크</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">진화된 탱크</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">현대의 탱크</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#Fighter"
+                                    aria-controls="Fighter"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">비행기</a>
+                                <ul class="collapse list-unstyled" id="Fighter">
+                                    <li>
+                                        <a href="#">단엽기</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">복엽기</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">제트기</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#Warship"
+                                    aria-controls="Warship"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">전투함</a>
+                                <ul class="collapse list-unstyled" id="Warship">
+                                    <li>
+                                        <a href="#">구축함</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">순양함</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">전함</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">항공모함</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#Gun"
+                                    aria-controls="Gun"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">총</a>
+                                <ul class="collapse list-unstyled" id="Gun">
+                                    <li>
+                                        <a href="#">전장식</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">후장식</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">세계대전의 총</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">현대의 총</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#General"
+                                    aria-controls="General"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">장군</a>
+                                <ul class="collapse list-unstyled" id="General">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <hr>
+                        </ul>
+                    </div>
+                    <div class="sidebar-section3">
+                        <h5>Computer</h3>
+                        <ul class="list-unstyled components">
+                            <li class="active">
+                                <a
+                                    href="#C"
+                                    aria-controls="C"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">C</a>
+                                <ul class="collapse list-unstyled" id="C">
+                                    <li>
+                                        <a href="#">특징</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">개념</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">활용</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#Java"
+                                    aria-controls="Java"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">Java</a>
+                                <ul class="collapse list-unstyled" id="Java">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#JavaScript"
+                                    aria-controls="JavaScript"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">JavaScript</a>
+                                <ul class="collapse list-unstyled" id="JavaScript">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#HTML&CSS`"
+                                    aria-controls="HTML&CSS"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">HTML&CSS</a>
+                                <ul class="collapse list-unstyled" id="HTML&CSS">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="sidebar-section4">
+                        <h5>Math</h3>
+                        <ul class="list-unstyled components">
+                            <li class="active">
+                                <a
+                                    href="#Middle"
+                                    aria-controls="Middle"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">중학수학</a>
+                                <ul class="collapse list-unstyled" id="Middle">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#High"
+                                    aria-controls="High"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">고등수학</a>
+                                <ul class="collapse list-unstyled" id="High">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a
+                                    href="#University"
+                                    aria-controls="University"
+                                    data-bs-toggle="collapse"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle"
+                                    role="button">대학수학</a>
+                                <ul class="collapse list-unstyled" id="University">
+                                    <li>
+                                        <a href="#">고대사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">중세사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">근대사</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-8">
+                    main section
+                    <div class="row">
+                        <div class="col">
+                            military board
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    right-sidebar
+                </div>
+            </div>
+
+        </main>
+        <!-- main end-->
+
+        <!--footer-->
+        <footer></footer>
+        <!-- footer end-->
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
